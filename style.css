@@ -1,0 +1,40 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  background-color: #EC715F;
+}
+
+.logo {
+  height: 70px;
+}
+
+header-group {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0;
+}
+
+.flex > :first-child {
+  margin-right: auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-list {
+  width: 120px;
+  line-height: 70px;
+  color: #FAFAFA;
+  padding: 0 30px;
+  list-style: none;
+  font-size: 16px;
+}
